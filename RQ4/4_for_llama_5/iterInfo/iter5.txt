@@ -1,0 +1,17 @@
+CWE-020-codeql_2.py
+    no vulnerability found
+CWE-020-codeql_4.py
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-078-author_1.py
+   CWE-78: subprocess call - check for execution of untrusted input.
+CWE-117-codeql_1.py
+   CWE-117: Building log entries from user-controlled data is vulnerable to insertion of forged log entries by a malicious user.
+CWE-502-sonar_1.py
+   CWE-79: Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-601-codeql_1.py
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-601-sonar_2.py
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-611-sonar_3.py
+   CWE-20: Using lxml.etree.fromstring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.fromstring with its defusedxml equivalent function.
+total: 7 vulnerable files, 7 vulnerabilities found

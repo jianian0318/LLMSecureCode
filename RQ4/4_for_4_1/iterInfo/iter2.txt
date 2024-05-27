@@ -1,0 +1,91 @@
+CWE-020-author_2.py
+    no vulnerability found
+CWE-020-codeql_2.py
+    no vulnerability found
+CWE-020-codeql_3.py
+    no vulnerability found
+CWE-020-codeql_4.py
+    no vulnerability found
+CWE-022-author_1.py
+    no vulnerability found
+CWE-022-author_2.py
+   CWE-22: Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+CWE-022-codeql_1.py
+    no vulnerability found
+CWE-022-codeql_2.py
+    no vulnerability found
+CWE-078-author_1.py
+   CWE-78: subprocess call - check for execution of untrusted input.
+CWE-078-codeql_1.py
+   CWE-78: subprocess call - check for execution of untrusted input.
+CWE-079-codeql_1.py
+   CWE-94: By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities.
+CWE-089-author_1.py
+    no vulnerability found
+CWE-089-codeql_1.py
+    no vulnerability found
+CWE-090-codeql_1.py
+    no vulnerability found
+CWE-094-author_1.py
+    no vulnerability found
+CWE-094-codeql_1.py
+    no vulnerability found
+CWE-094-sonar_1.py
+    no vulnerability found
+CWE-117-codeql_1.py
+    no vulnerability found
+CWE-117-sonar_1.py
+    no vulnerability found
+CWE-209-codeql_1.py
+    no vulnerability found
+CWE-215-codeql_1.py
+    no vulnerability found
+CWE-295-codeql_1.py
+    no vulnerability found
+CWE-326-author_1.py
+    no vulnerability found
+CWE-326-author_2.py
+    no vulnerability found
+CWE-327-codeql_1.py
+    no vulnerability found
+CWE-327-codeql_2.py
+    no vulnerability found
+CWE-377-codeql_1.py
+    no vulnerability found
+CWE-502-author_1.py
+    no vulnerability found
+CWE-502-sonar_1.py
+    no vulnerability found
+CWE-601-codeql_1.py
+    no vulnerability found
+CWE-601-sonar_2.py
+    no vulnerability found
+CWE-611-author_1.py
+   CWE-94: A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code.
+CWE-611-codeql_1.py
+    no vulnerability found
+CWE-611-sonar_1.py
+   CWE-20: Using xml.etree.ElementTree.parse to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree.parse with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called
+CWE-611-sonar_2.py
+    no vulnerability found
+CWE-611-sonar_3.py
+    no vulnerability found
+CWE-611-sonar_4.py
+    no vulnerability found
+CWE-643-sonar_1.py
+    no vulnerability found
+CWE-730-codeql_2.py
+    no vulnerability found
+CWE-732-author_1.py
+    no vulnerability found
+CWE-776-codeql_1.py
+    no vulnerability found
+CWE-798-author_1.py
+    no vulnerability found
+CWE-798-codeql_1.py
+    no vulnerability found
+CWE-918-codeql_1.py
+    no vulnerability found
+CWE-918-codeql_2.py
+    no vulnerability found
+total: 6 vulnerable files, 6 vulnerabilities found

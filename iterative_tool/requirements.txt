@@ -1,0 +1,9 @@
+# requirement for bandit
+bandit
+# requirement for codeQL
+virtualenv
+# requirements for the script
+openai
+fuzzywuzzy
+python-levenshtein
+python-dotenv

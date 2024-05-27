@@ -1,0 +1,24 @@
+from flask import Flask, request
+import re
+
+app = Flask(__name__)
+
+@app.route("/direct")
+def direct():
+    pattern = request.args.get('pattern')  # Get the regular expression pattern from the GET request
+    text = request.args.get('text')  # Get the string from the GET request
+
+    # Escape special characters in user-provided pattern to avoid regular expression injection
+    safe_pattern = re.escape(pattern)
+
+    compiled_pattern = re.compile(safe_pattern)  # Compile the regular expression pattern with the escaped user input
+    
+    match = re.search(compiled_pattern, text)  # Use the compiled pattern to search the string
+
+    if match:
+        return "Pattern found in text"
+    else:
+        return "Pattern not found in text"
+
+if __name__ == "__main__":
+    app.run()

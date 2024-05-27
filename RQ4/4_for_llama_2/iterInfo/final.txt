@@ -1,0 +1,9 @@
+CWE-078-author_1.py
+   CWE-78: subprocess call - check for execution of untrusted input.
+CWE-117-codeql_1.py
+   CWE-117: Building log entries from user-controlled data is vulnerable to insertion of forged log entries by a malicious user.
+CWE-601-sonar_2.py
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-798-codeql_1.py
+   CWE-798: Credentials are hard coded in the source code of the application.
+total: 4 vulnerable files, 4 vulnerabilities found

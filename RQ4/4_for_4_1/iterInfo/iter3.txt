@@ -1,0 +1,13 @@
+CWE-022-author_2.py
+   CWE-22: Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+CWE-078-author_1.py
+   CWE-78: subprocess call - check for execution of untrusted input.
+CWE-078-codeql_1.py
+   CWE-78: subprocess call - check for execution of untrusted input.
+CWE-079-codeql_1.py
+    no vulnerability found
+CWE-611-author_1.py
+    no vulnerability found
+CWE-611-sonar_1.py
+    no vulnerability found
+total: 3 vulnerable files, 3 vulnerabilities found

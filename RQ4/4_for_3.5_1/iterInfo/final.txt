@@ -1,0 +1,18 @@
+CWE-020-codeql_3.py
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-020-codeql_4.py
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-022-author_2.py
+   CWE-22: Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+CWE-022-codeql_1.py
+   CWE-643: Accessing paths influenced by users can allow an attacker to access unexpected resources.
+CWE-078-author_1.py
+   CWE-78: subprocess call - check for execution of untrusted input.
+CWE-078-codeql_1.py
+   CWE-78: subprocess call - check for execution of untrusted input.
+CWE-094-author_1.py
+   CWE-78: Use of possibly insecure function - consider using safer ast.literal_eval.
+   CWE-94: Interpreting unsanitized user input as code allows a malicious user to perform arbitrary code execution.
+CWE-601-codeql_1.py
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+total: 8 vulnerable files, 9 vulnerabilities found

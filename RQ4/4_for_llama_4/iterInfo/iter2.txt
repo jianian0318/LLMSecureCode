@@ -1,0 +1,92 @@
+CWE-020-author_1.py
+    no vulnerability found
+CWE-020-author_2.py
+    no vulnerability found
+CWE-020-codeql_1.py
+    no vulnerability found
+CWE-020-codeql_2.py
+    no vulnerability found
+CWE-020-codeql_4.py
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-022-author_1.py
+   CWE-643: Accessing paths influenced by users can allow an attacker to access unexpected resources.
+CWE-022-codeql_1.py
+   CWE-643: Accessing paths influenced by users can allow an attacker to access unexpected resources.
+CWE-022-codeql_2.py
+    no vulnerability found
+CWE-078-author_1.py
+   CWE-78: subprocess call - check for execution of untrusted input.
+CWE-078-codeql_1.py
+   CWE-78: subprocess call - check for execution of untrusted input.
+   CWE-730: Using externally controlled strings in a command line may allow a malicious user to change the meaning of the command.
+CWE-079-codeql_1.py
+    no vulnerability found
+CWE-079-codeql_2.py
+    no vulnerability found
+CWE-079-sonar_1.py
+    no vulnerability found
+CWE-090-codeql_1.py
+    no vulnerability found
+CWE-090-codeql_2.py
+    no vulnerability found
+CWE-094-codeql_1.py
+    no vulnerability found
+CWE-094-sonar_1.py
+    no vulnerability found
+CWE-116-author_1.py
+   CWE-643: Accessing paths influenced by users can allow an attacker to access unexpected resources.
+CWE-116-codeql_1.py
+    no vulnerability found
+CWE-117-codeql_1.py
+   CWE-117: Building log entries from user-controlled data is vulnerable to insertion of forged log entries by a malicious user.
+CWE-209-codeql_1.py
+    no vulnerability found
+CWE-215-codeql_1.py
+    no vulnerability found
+CWE-295-codeql_1.py
+    no vulnerability found
+CWE-326-author_2.py
+    no vulnerability found
+CWE-327-codeql_4.py
+   CWE-326: Using broken or weak cryptographic hashing algorithms can compromise security.
+CWE-377-codeql_1.py
+    no vulnerability found
+CWE-502-author_1.py
+    no vulnerability found
+CWE-502-codeql_1.py
+    no vulnerability found
+CWE-502-mitre_1.py
+    no vulnerability found
+CWE-502-sonar_1.py
+    no vulnerability found
+CWE-601-codeql_1.py
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-601-sonar_2.py
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-611-author_1.py
+   CWE-20: Using lxml.etree.fromstring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.fromstring with its defusedxml equivalent function.
+CWE-611-codeql_1.py
+   CWE-20: Using lxml.etree.fromstring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.fromstring with its defusedxml equivalent function.
+CWE-611-sonar_1.py
+    no vulnerability found
+CWE-611-sonar_3.py
+    no vulnerability found
+CWE-611-sonar_4.py
+    no vulnerability found
+CWE-643-codeql_1.py
+    no vulnerability found
+CWE-730-codeql_1.py
+    no vulnerability found
+CWE-730-codeql_2.py
+    no vulnerability found
+CWE-732-author_1.py
+    no vulnerability found
+CWE-798-author_1.py
+    no vulnerability found
+CWE-798-codeql_1.py
+    no vulnerability found
+CWE-918-codeql_1.py
+   CWE-918: Making a network request to a URL that is partially user-controlled allows for request forgery attacks.
+CWE-918-codeql_2.py
+    no vulnerability found
+total: 13 vulnerable files, 14 vulnerabilities found

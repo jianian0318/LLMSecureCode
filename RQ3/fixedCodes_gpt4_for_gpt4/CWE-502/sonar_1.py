@@ -1,0 +1,1 @@
+# Your code is correct and you have already implemented `safe_load()` method of `PyYAML` which is a safer method for parsing YAML documents. Good job! This method does not construct any Python objects it doesn’t know about, unlike `load()`. This avoids executing arbitrary code.

@@ -1,0 +1,11 @@
+---
+library: true
+warnOnImplicitThis: true
+name: codeql/dataflow
+version: 0.1.8
+dependencies:
+  codeql/ssa: 0.2.8
+  codeql/typetracking: 0.2.8
+  codeql/util: 0.2.8
+groups:
+ - shared

@@ -1,0 +1,17 @@
+---
+library: false
+warnOnImplicitThis: true
+name: codeql/python-queries
+version: 0.9.8
+buildMetadata:
+  sha: 753d78a695a3290dbadc725fe1bd0ee759f37734
+  cliVersion: 2.16.2
+dependencies:
+  codeql/python-all: 0.11.8
+  codeql/suite-helpers: 0.7.8
+suites: codeql-suites
+extractor: python
+groups:
+ - python
+ - queries
+defaultSuiteFile: codeql-suites/python-code-scanning.qls

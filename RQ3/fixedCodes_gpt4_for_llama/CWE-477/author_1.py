@@ -1,0 +1,1 @@
+The given Python code doesn't contain any obsolete functions. The function `time.time()` used here is the correct and modern way to get the current time in Python.

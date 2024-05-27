@@ -1,0 +1,85 @@
+CWE-020-author_2.py
+    no vulnerability found
+CWE-020-codeql_1.py
+    no vulnerability found
+CWE-020-codeql_2.py
+    no vulnerability found
+CWE-020-codeql_3.py
+    no vulnerability found
+CWE-020-codeql_4.py
+    no vulnerability found
+CWE-022-author_1.py
+    no vulnerability found
+CWE-022-author_2.py
+   CWE-22: Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+CWE-022-codeql_1.py
+    no vulnerability found
+CWE-022-codeql_2.py
+    no vulnerability found
+CWE-078-author_1.py
+   CWE-78: subprocess call - check for execution of untrusted input.
+CWE-078-codeql_1.py
+   CWE-78: subprocess call - check for execution of untrusted input.
+CWE-079-codeql_1.py
+    no vulnerability found
+CWE-089-author_1.py
+    no vulnerability found
+CWE-089-codeql_1.py
+    no vulnerability found
+CWE-094-author_1.py
+   CWE-78: Use of possibly insecure function - consider using safer ast.literal_eval.
+CWE-094-sonar_1.py
+    no vulnerability found
+CWE-116-author_1.py
+    no vulnerability found
+CWE-117-codeql_1.py
+    no vulnerability found
+CWE-117-sonar_1.py
+    no vulnerability found
+CWE-215-codeql_1.py
+    no vulnerability found
+CWE-295-codeql_1.py
+    no vulnerability found
+CWE-326-author_1.py
+    no vulnerability found
+CWE-326-author_2.py
+    no vulnerability found
+CWE-327-codeql_1.py
+    no vulnerability found
+CWE-327-codeql_2.py
+    no vulnerability found
+CWE-377-codeql_1.py
+    no vulnerability found
+CWE-502-author_1.py
+    no vulnerability found
+CWE-502-codeql_1.py
+    no vulnerability found
+CWE-611-author_1.py
+    no vulnerability found
+CWE-611-codeql_1.py
+    no vulnerability found
+CWE-611-sonar_1.py
+    no vulnerability found
+CWE-611-sonar_2.py
+   CWE-20: Using lxml.etree.fromstring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.fromstring with its defusedxml equivalent function.
+CWE-611-sonar_3.py
+   CWE-20: Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+CWE-611-sonar_4.py
+   CWE-20: Using xml.sax to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.sax with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.
+CWE-643-codeql_1.py
+    no vulnerability found
+CWE-643-sonar_1.py
+    no vulnerability found
+CWE-730-codeql_2.py
+    no vulnerability found
+CWE-732-author_1.py
+    no vulnerability found
+CWE-798-author_1.py
+    no vulnerability found
+CWE-798-codeql_1.py
+    no vulnerability found
+CWE-918-codeql_1.py
+    no vulnerability found
+CWE-918-codeql_2.py
+    no vulnerability found
+total: 7 vulnerable files, 7 vulnerabilities found

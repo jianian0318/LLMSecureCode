@@ -1,0 +1,112 @@
+CWE-020-author_2.py
+    no vulnerability found
+CWE-020-codeql_1.py
+   CWE-605: Possible binding to all interfaces.
+CWE-020-codeql_2.py
+    no vulnerability found
+CWE-020-codeql_3.py
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-020-codeql_4.py
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-022-author_1.py
+    no vulnerability found
+CWE-022-author_2.py
+   CWE-22: Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+CWE-022-codeql_1.py
+    no vulnerability found
+CWE-022-codeql_2.py
+    no vulnerability found
+CWE-078-codeql_1.py
+   CWE-78: subprocess call - check for execution of untrusted input.
+CWE-079-codeql_1.py
+    no vulnerability found
+CWE-079-codeql_2.py
+    no vulnerability found
+CWE-079-sonar_1.py
+    no vulnerability found
+CWE-089-author_1.py
+    no vulnerability found
+CWE-089-codeql_1.py
+    no vulnerability found
+CWE-090-codeql_1.py
+   CWE-730: Building an LDAP query from user-controlled sources is vulnerable to insertion of malicious LDAP code by the user.
+CWE-090-codeql_2.py
+    no vulnerability found
+CWE-094-author_1.py
+   CWE-78: Use of possibly insecure function - consider using safer ast.literal_eval.
+CWE-094-codeql_1.py
+    no vulnerability found
+CWE-094-sonar_1.py
+   CWE-79: Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+   CWE-117: Building log entries from user-controlled data is vulnerable to insertion of forged log entries by a malicious user.
+CWE-116-author_1.py
+    no vulnerability found
+CWE-116-codeql_1.py
+    no vulnerability found
+CWE-117-codeql_1.py
+    no vulnerability found
+CWE-117-sonar_1.py
+   CWE-117: Building log entries from user-controlled data is vulnerable to insertion of forged log entries by a malicious user.
+CWE-209-codeql_1.py
+    no vulnerability found
+CWE-285-codeql_1.py
+    no vulnerability found
+CWE-295-codeql_1.py
+    no vulnerability found
+CWE-326-author_1.py
+    no vulnerability found
+CWE-326-author_2.py
+    no vulnerability found
+CWE-327-codeql_1.py
+    no vulnerability found
+CWE-327-codeql_2.py
+   CWE-327: Using an insecure SSL/TLS version may leave the connection vulnerable to attacks.
+CWE-327-codeql_4.py
+   CWE-259: Possible hardcoded password: 'password'
+CWE-377-codeql_1.py
+    no vulnerability found
+CWE-502-author_1.py
+    no vulnerability found
+CWE-502-codeql_1.py
+    no vulnerability found
+CWE-502-sonar_1.py
+    no vulnerability found
+CWE-601-codeql_1.py
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-601-sonar_2.py
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-601-sonar_3.py
+    no vulnerability found
+CWE-611-author_1.py
+   CWE-20: Using lxml.etree.fromstring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.fromstring with its defusedxml equivalent function.
+CWE-611-codeql_1.py
+   CWE-20: Using lxml.etree.fromstring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.fromstring with its defusedxml equivalent function.
+CWE-611-sonar_1.py
+    no vulnerability found
+CWE-611-sonar_2.py
+    no vulnerability found
+CWE-611-sonar_3.py
+    no vulnerability found
+CWE-611-sonar_4.py
+    no vulnerability found
+CWE-643-codeql_1.py
+    no vulnerability found
+CWE-643-sonar_1.py
+    no vulnerability found
+CWE-730-codeql_1.py
+    no vulnerability found
+CWE-730-codeql_2.py
+    no vulnerability found
+CWE-732-author_1.py
+    no vulnerability found
+CWE-776-codeql_1.py
+   CWE-20: Parsing user input as an XML document with arbitrary internal entity expansion is vulnerable to denial-of-service attacks.
+CWE-798-author_1.py
+    no vulnerability found
+CWE-798-codeql_1.py
+    no vulnerability found
+CWE-918-codeql_1.py
+   CWE-918: Making a network request to a URL that is fully user-controlled allows for request forgery attacks.
+CWE-918-codeql_2.py
+    no vulnerability found
+total: 17 vulnerable files, 18 vulnerabilities found

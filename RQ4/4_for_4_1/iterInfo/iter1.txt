@@ -1,0 +1,141 @@
+CWE-020-author_1.py
+    no vulnerability found
+CWE-020-author_2.py
+   CWE-20: Using xml.etree.ElementTree.fromstring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree.fromstring with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called
+CWE-020-codeql_1.py
+    no vulnerability found
+CWE-020-codeql_2.py
+   CWE-502: Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.
+CWE-020-codeql_3.py
+   CWE-94: A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code.
+CWE-020-codeql_4.py
+   CWE-94: A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code.
+CWE-022-author_1.py
+   CWE-94: A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code.
+CWE-022-author_2.py
+   CWE-22: Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+CWE-022-codeql_1.py
+   CWE-94: A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code.
+CWE-022-codeql_2.py
+   CWE-377: Probable insecure usage of temp file/directory.
+CWE-078-author_1.py
+   CWE-78: subprocess call with shell=True identified, security issue.
+CWE-078-codeql_1.py
+   CWE-78: subprocess call with shell=True identified, security issue.
+   CWE-94: A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code.
+CWE-079-codeql_1.py
+   CWE-94: A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code.
+CWE-079-codeql_2.py
+    no vulnerability found
+CWE-079-sonar_1.py
+    no vulnerability found
+CWE-089-author_1.py
+   CWE-259: Possible hardcoded password: 'your_password'
+CWE-089-codeql_1.py
+   CWE-259: Possible hardcoded password: ''
+CWE-090-codeql_1.py
+   CWE-94: A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code.
+CWE-090-codeql_2.py
+    no vulnerability found
+CWE-094-author_1.py
+   CWE-78: Use of exec detected.
+CWE-094-codeql_1.py
+   CWE-94: A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code.
+CWE-094-sonar_1.py
+   CWE-78: Use of exec detected.
+   CWE-94: A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code.
+CWE-116-author_1.py
+    no vulnerability found
+CWE-116-codeql_1.py
+    no vulnerability found
+CWE-117-author_1.py
+    no vulnerability found
+CWE-117-codeql_1.py
+   CWE-94: A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code.
+CWE-117-sonar_1.py
+   CWE-94: A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code.
+CWE-209-codeql_1.py
+   CWE-94: A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code.
+CWE-215-codeql_1.py
+   CWE-94: A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code.
+CWE-285-codeql_1.py
+    no vulnerability found
+CWE-295-author_1.py
+    no vulnerability found
+CWE-295-author_2.py
+    no vulnerability found
+CWE-295-codeql_1.py
+   CWE-400: Requests call without timeout
+CWE-326-author_1.py
+   CWE-327: The pyCrypto library and its module RSA are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.
+CWE-326-author_2.py
+   CWE-327: The pyCrypto library and its module PEM are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.
+CWE-327-codeql_1.py
+   CWE-327: The pyCrypto library and its module get_random_bytes are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.
+CWE-327-codeql_2.py
+   CWE-327: ssl.wrap_socket call with no SSL/TLS protocol version specified, the default SSLv23 could be insecure, possible security issue.
+CWE-327-codeql_3.py
+    no vulnerability found
+CWE-327-codeql_4.py
+    no vulnerability found
+CWE-377-codeql_1.py
+   CWE-377: Use of insecure and deprecated function (mktemp).
+CWE-502-author_1.py
+   CWE-502: Consider possible security implications associated with pickle module.
+CWE-502-codeql_1.py
+    no vulnerability found
+CWE-502-mitre_1.py
+    no vulnerability found
+CWE-502-sonar_1.py
+   CWE-94: A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code.
+CWE-601-codeql_1.py
+   CWE-94: A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code.
+CWE-601-sonar_1.py
+    no vulnerability found
+CWE-601-sonar_2.py
+   CWE-94: A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code.
+CWE-601-sonar_3.py
+    no vulnerability found
+CWE-601-sonar_4.py
+    no vulnerability found
+CWE-611-author_1.py
+   CWE-20: Using lxml.etree.parse to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.parse with its defusedxml equivalent function.
+CWE-611-codeql_1.py
+   CWE-20: Using lxml.etree.fromstring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.fromstring with its defusedxml equivalent function.
+   CWE-94: A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code.
+CWE-611-sonar_1.py
+   CWE-20: Using lxml.etree.parse to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.parse with its defusedxml equivalent function.
+CWE-611-sonar_2.py
+   CWE-20: Using lxml.etree.parse to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.parse with its defusedxml equivalent function.
+CWE-611-sonar_3.py
+   CWE-20: Using lxml.etree.parse to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.parse with its defusedxml equivalent function.
+CWE-611-sonar_4.py
+   CWE-20: Using xml.sax.make_parser to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.sax.make_parser with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called
+CWE-643-codeql_1.py
+    no vulnerability found
+CWE-643-sonar_1.py
+   CWE-20: Using xml.etree.ElementTree.parse to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree.parse with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called
+   CWE-94: A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code.
+CWE-730-author_1.py
+    no vulnerability found
+CWE-730-codeql_1.py
+    no vulnerability found
+CWE-730-codeql_2.py
+   CWE-605: Possible binding to all interfaces.
+CWE-732-author_1.py
+   CWE-732: Chmod setting a permissive mask 0o755 on file (test.bim).
+CWE-776-codeql_1.py
+   CWE-20: Using xml.etree.ElementTree.fromstring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree.fromstring with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called
+   CWE-605: Possible binding to all interfaces.
+CWE-798-author_1.py
+   CWE-259: Possible hardcoded password: 'your_password'
+CWE-798-codeql_1.py
+   CWE-259: Possible hardcoded password: 'expected_password'
+CWE-918-codeql_1.py
+   CWE-400: Requests call without timeout
+   CWE-94: A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code.
+CWE-918-codeql_2.py
+   CWE-400: Requests call without timeout
+CWE-943-sonar_1.py
+    no vulnerability found
+total: 45 vulnerable files, 51 vulnerabilities found

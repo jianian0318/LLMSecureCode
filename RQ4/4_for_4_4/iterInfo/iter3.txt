@@ -1,0 +1,38 @@
+CWE-020-codeql_1.py
+    no vulnerability found
+CWE-020-codeql_3.py
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-020-codeql_4.py
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-022-author_2.py
+   CWE-22: Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+CWE-078-codeql_1.py
+   CWE-78: subprocess call - check for execution of untrusted input.
+CWE-090-codeql_1.py
+   CWE-730: A regular expression that can require polynomial time to match may be vulnerable to denial-of-service attacks.
+   CWE-22: Leaking information about an exception, such as messages and stack traces, to an external user can expose implementation details that are useful to an attacker for developing a subsequent exploit.
+CWE-094-author_1.py
+    no vulnerability found
+CWE-094-sonar_1.py
+   CWE-79: Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+   CWE-117: Building log entries from user-controlled data is vulnerable to insertion of forged log entries by a malicious user.
+CWE-117-sonar_1.py
+   CWE-117: Building log entries from user-controlled data is vulnerable to insertion of forged log entries by a malicious user.
+CWE-327-codeql_2.py
+    no vulnerability found
+CWE-327-codeql_4.py
+    no vulnerability found
+CWE-601-codeql_1.py
+    no vulnerability found
+CWE-601-sonar_2.py
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-611-author_1.py
+   CWE-20: Using lxml.etree.fromstring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.fromstring with its defusedxml equivalent function.
+CWE-611-codeql_1.py
+    no vulnerability found
+CWE-776-codeql_1.py
+   CWE-20: Parsing user input as an XML document with arbitrary internal entity expansion is vulnerable to denial-of-service attacks.
+CWE-918-codeql_1.py
+   CWE-79: Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+   CWE-918: Making a network request to a URL that is fully user-controlled allows for request forgery attacks.
+total: 11 vulnerable files, 14 vulnerabilities found

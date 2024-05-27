@@ -1,0 +1,13 @@
+CWE-022-author_2.py
+   CWE-22: Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+CWE-078-author_1.py
+   CWE-78: subprocess call - check for execution of untrusted input.
+CWE-078-codeql_1.py
+   CWE-78: subprocess call - check for execution of untrusted input.
+CWE-611-sonar_2.py
+    no vulnerability found
+CWE-611-sonar_3.py
+   CWE-20: Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+CWE-611-sonar_4.py
+   CWE-20: Using ContentHandler to parse untrusted XML data is known to be vulnerable to XML attacks. Replace ContentHandler with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.
+total: 5 vulnerable files, 5 vulnerabilities found

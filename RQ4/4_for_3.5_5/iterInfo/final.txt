@@ -1,0 +1,28 @@
+CWE-020-codeql_2.py
+   CWE-79: Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-020-codeql_3.py
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-020-codeql_4.py
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-022-author_1.py
+   CWE-643: Accessing paths influenced by users can allow an attacker to access unexpected resources.
+CWE-022-author_2.py
+   CWE-22: Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+CWE-022-codeql_2.py
+   CWE-377: Probable insecure usage of temp file/directory.
+CWE-078-author_1.py
+   CWE-78: subprocess call - check for execution of untrusted input.
+CWE-078-codeql_1.py
+   CWE-78: subprocess call - check for execution of untrusted input.
+CWE-116-author_1.py
+   CWE-643: Accessing paths influenced by users can allow an attacker to access unexpected resources.
+   CWE-79: Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-327-codeql_4.py
+   CWE-326: Using broken or weak cryptographic hashing algorithms can compromise security.
+CWE-601-codeql_1.py
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-601-sonar_2.py
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-611-sonar_4.py
+   CWE-20: Using ContentHandler to parse untrusted XML data is known to be vulnerable to XML attacks. Replace ContentHandler with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.
+total: 13 vulnerable files, 14 vulnerabilities found

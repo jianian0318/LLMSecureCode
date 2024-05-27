@@ -1,0 +1,45 @@
+CWE-020-codeql_3.py
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-020-codeql_4.py
+   CWE-20: Overly permissive regular expression ranges match a wider range of characters than intended. This may allow an attacker to bypass a filter or sanitizer.
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-022-author_1.py
+   CWE-643: Accessing paths influenced by users can allow an attacker to access unexpected resources.
+CWE-022-author_2.py
+   CWE-22: Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+CWE-078-author_1.py
+   CWE-78: subprocess call - check for execution of untrusted input.
+CWE-078-codeql_1.py
+   CWE-78: subprocess call - check for execution of untrusted input.
+   CWE-730: Using externally controlled strings in a command line may allow a malicious user to change the meaning of the command.
+CWE-090-codeql_1.py
+   CWE-22: Leaking information about an exception, such as messages and stack traces, to an external user can expose implementation details that are useful to an attacker for developing a subsequent exploit.
+CWE-090-codeql_2.py
+   CWE-730: Building an LDAP query from user-controlled sources is vulnerable to insertion of malicious LDAP code by the user.
+CWE-094-author_1.py
+    no vulnerability found
+CWE-116-author_1.py
+   CWE-643: Accessing paths influenced by users can allow an attacker to access unexpected resources.
+   CWE-22: Leaking information about an exception, such as messages and stack traces, to an external user can expose implementation details that are useful to an attacker for developing a subsequent exploit.
+CWE-117-sonar_1.py
+   CWE-117: Building log entries from user-controlled data is vulnerable to insertion of forged log entries by a malicious user.
+CWE-209-codeql_1.py
+    no vulnerability found
+CWE-327-codeql_4.py
+    no vulnerability found
+CWE-601-codeql_1.py
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-601-sonar_2.py
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-611-author_1.py
+    no vulnerability found
+CWE-611-codeql_1.py
+    no vulnerability found
+CWE-611-sonar_2.py
+    no vulnerability found
+CWE-918-codeql_1.py
+   CWE-94: A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code.
+   CWE-215: Running a Flask app in debug mode may allow an attacker to run arbitrary code through the Werkzeug debugger.
+CWE-918-codeql_2.py
+    no vulnerability found
+total: 13 vulnerable files, 17 vulnerabilities found

@@ -1,0 +1,147 @@
+CWE-020-author_1.py
+   CWE-20: Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().
+CWE-020-author_2.py
+   CWE-20: Using xml.etree.ElementTree.fromstring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree.fromstring with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called
+CWE-020-codeql_1.py
+    no vulnerability found
+CWE-020-codeql_2.py
+   CWE-502: Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.
+CWE-020-codeql_3.py
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-020-codeql_4.py
+    no vulnerability found
+CWE-022-author_1.py
+    no vulnerability found
+CWE-022-author_2.py
+   CWE-22: Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+CWE-022-codeql_1.py
+   CWE-643: Accessing paths influenced by users can allow an attacker to access unexpected resources.
+CWE-022-codeql_2.py
+   CWE-377: Probable insecure usage of temp file/directory.
+   CWE-79: Extracting files from a malicious tar archive without validating that the destination file path is within the destination directory can cause files outside the destination directory to be overwritten.
+CWE-078-author_1.py
+   CWE-78: subprocess call with shell=True identified, security issue.
+CWE-078-codeql_1.py
+   CWE-78: Starting a process with a shell, possible injection detected, security issue.
+   CWE-730: Using externally controlled strings in a command line may allow a malicious user to change the meaning of the command.
+CWE-079-codeql_1.py
+    no vulnerability found
+CWE-079-codeql_2.py
+    no vulnerability found
+CWE-079-sonar_1.py
+    no vulnerability found
+CWE-089-author_1.py
+   CWE-259: Possible hardcoded password: 'your_password'
+   CWE-798: Credentials are hard coded in the source code of the application.
+CWE-089-codeql_1.py
+   CWE-259: Possible hardcoded password: 'your_password'
+   CWE-798: Credentials are hard coded in the source code of the application.
+CWE-090-codeql_1.py
+   CWE-730: Building an LDAP query from user-controlled sources is vulnerable to insertion of malicious LDAP code by the user.
+CWE-090-codeql_2.py
+    no vulnerability found
+CWE-094-author_1.py
+   CWE-78: Use of exec detected.
+CWE-094-codeql_1.py
+    no vulnerability found
+CWE-094-sonar_1.py
+   CWE-78: Use of exec detected.
+   CWE-94: Interpreting unsanitized user input as code allows a malicious user to perform arbitrary code execution.
+CWE-116-author_1.py
+    no vulnerability found
+CWE-116-codeql_1.py
+    no vulnerability found
+CWE-117-author_1.py
+    no vulnerability found
+CWE-117-codeql_1.py
+    no vulnerability found
+CWE-117-sonar_1.py
+    no vulnerability found
+CWE-209-codeql_1.py
+    no vulnerability found
+CWE-215-codeql_1.py
+    no vulnerability found
+CWE-285-codeql_1.py
+    no vulnerability found
+CWE-295-author_1.py
+    no vulnerability found
+CWE-295-author_2.py
+    no vulnerability found
+CWE-295-codeql_1.py
+   CWE-400: Requests call without timeout
+CWE-326-author_1.py
+   CWE-327: The pyCrypto library and its module RSA are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.
+CWE-326-author_2.py
+   CWE-327: The pyCrypto library and its module DSA are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.
+CWE-327-codeql_1.py
+   CWE-327: The pyCrypto library and its module AES are no longer actively maintained and have been deprecated. Consider using pyca/cryptography library.
+   CWE-326: Using broken or weak cryptographic algorithms can compromise security.
+CWE-327-codeql_2.py
+   CWE-327: ssl.wrap_socket call with no SSL/TLS protocol version specified, the default SSLv23 could be insecure, possible security issue.
+CWE-327-codeql_3.py
+    no vulnerability found
+CWE-327-codeql_4.py
+    no vulnerability found
+CWE-377-codeql_1.py
+   CWE-377: Creating a temporary file using this method may be insecure.
+CWE-502-author_1.py
+   CWE-502: Consider possible security implications associated with pickle module.
+CWE-502-codeql_1.py
+   CWE-502: Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.
+CWE-502-mitre_1.py
+    no vulnerability found
+CWE-502-sonar_1.py
+   CWE-79: Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-601-codeql_1.py
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-601-sonar_1.py
+    no vulnerability found
+CWE-601-sonar_2.py
+    no vulnerability found
+CWE-601-sonar_3.py
+    no vulnerability found
+CWE-601-sonar_4.py
+    no vulnerability found
+CWE-611-author_1.py
+   CWE-20: Parsing user input as an XML document with external entity expansion is vulnerable to XXE attacks.
+CWE-611-codeql_1.py
+   CWE-20: Parsing user input as an XML document with external entity expansion is vulnerable to XXE attacks.
+CWE-611-sonar_1.py
+   CWE-20: Using lxml.etree.parse to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.parse with its defusedxml equivalent function.
+CWE-611-sonar_2.py
+    no vulnerability found
+CWE-611-sonar_3.py
+   CWE-20: Using lxml.etree.parse to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.parse with its defusedxml equivalent function.
+CWE-611-sonar_4.py
+   CWE-20: Using xml.etree.ElementTree.parse to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree.parse with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called
+CWE-643-codeql_1.py
+   CWE-20: Using lxml.etree.parse to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.parse with its defusedxml equivalent function.
+CWE-643-sonar_1.py
+   CWE-20: Using xml.etree.ElementTree.parse to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.etree.ElementTree.parse with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called
+   CWE-730: Building a XPath query from user-controlled sources is vulnerable to insertion of malicious Xpath code by the user.
+CWE-730-author_1.py
+    no vulnerability found
+CWE-730-codeql_1.py
+   CWE-117: User input should not be used in regular expressions without first being escaped, otherwise a malicious user may be able to inject an expression that could require exponential time on certain inputs.
+CWE-730-codeql_2.py
+   CWE-117: User input should not be used in regular expressions without first being escaped, otherwise a malicious user may be able to inject an expression that could require exponential time on certain inputs.
+CWE-732-author_1.py
+   CWE-732: Allowing files to be readable or writable by users other than the owner may allow sensitive information to be accessed.
+CWE-776-codeql_1.py
+    no vulnerability found
+CWE-798-author_1.py
+   CWE-259: Possible hardcoded password: 'your_password'
+   CWE-798: Credentials are hard coded in the source code of the application.
+CWE-798-codeql_1.py
+   CWE-259: Possible hardcoded password: 'your_expected_password'
+CWE-918-codeql_1.py
+   CWE-400: Requests call without timeout
+   CWE-79: Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+   CWE-918: Making a network request to a URL that is fully user-controlled allows for request forgery attacks.
+CWE-918-codeql_2.py
+   CWE-400: Requests call without timeout
+   CWE-79: Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+   CWE-918: Making a network request to a URL that is partially user-controlled allows for request forgery attacks.
+CWE-943-sonar_1.py
+    no vulnerability found
+total: 38 vulnerable files, 50 vulnerabilities found

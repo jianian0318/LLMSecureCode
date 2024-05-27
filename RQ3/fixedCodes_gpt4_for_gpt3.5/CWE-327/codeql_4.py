@@ -1,0 +1,2 @@
+This Python code increases the security of the password hashing function by using SHA-256, which is currently considered strong, instead of the now broken or risky algorithm.
+Remember to always keep up with the latest advancements in cryptography because what's considered strong today might be broken tomorrow.

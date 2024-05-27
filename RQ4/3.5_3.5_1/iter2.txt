@@ -1,0 +1,90 @@
+CWE-020-author_1.py
+    no vulnerability found
+CWE-020-codeql_2.py
+   CWE-502: Deserializing user-controlled data may allow attackers to execute arbitrary code.
+   CWE-79: Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+   CWE-22: Leaking information about an exception, such as messages and stack traces, to an external user can expose implementation details that are useful to an attacker for developing a subsequent exploit.
+CWE-020-codeql_4.py
+   CWE-20: Security checks on the substrings of an unparsed URL are often vulnerable to bypassing.
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-022-author_2.py
+   CWE-22: Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.
+CWE-022-codeql_1.py
+    no vulnerability found
+CWE-022-codeql_2.py
+   CWE-377: Probable insecure usage of temp file/directory.
+   CWE-79: Extracting files from a malicious tar archive without validating that the destination file path is within the destination directory can cause files outside the destination directory to be overwritten.
+CWE-078-author_1.py
+   CWE-78: subprocess call - check for execution of untrusted input.
+CWE-078-codeql_1.py
+   CWE-78: subprocess call with shell=True identified, security issue.
+   CWE-730: Using externally controlled strings in a command line may allow a malicious user to change the meaning of the command.
+CWE-079-codeql_2.py
+    no vulnerability found
+CWE-079-sonar_1.py
+    no vulnerability found
+CWE-089-author_1.py
+   CWE-259: Possible hardcoded password: 'your_password'
+   CWE-798: Credentials are hard coded in the source code of the application.
+CWE-089-codeql_1.py
+   CWE-259: Possible hardcoded password: 'your_password'
+   CWE-798: Credentials are hard coded in the source code of the application.
+CWE-090-codeql_2.py
+    no vulnerability found
+CWE-094-author_1.py
+   CWE-78: Use of exec detected.
+   CWE-94: Interpreting unsanitized user input as code allows a malicious user to perform arbitrary code execution.
+CWE-094-sonar_1.py
+   CWE-78: Use of possibly insecure function - consider using safer ast.literal_eval.
+CWE-116-codeql_1.py
+   CWE-116: Matching HTML tags using regular expressions is hard to do right, and can easily lead to security issues.
+CWE-209-codeql_1.py
+    no vulnerability found
+CWE-295-codeql_1.py
+    no vulnerability found
+CWE-326-author_1.py
+    no vulnerability found
+CWE-326-author_2.py
+    no vulnerability found
+CWE-327-codeql_1.py
+   CWE-327: Use of insecure cipher mode cryptography.hazmat.primitives.ciphers.modes.ECB.
+   CWE-326: Using broken or weak cryptographic algorithms can compromise security.
+CWE-327-codeql_2.py
+   CWE-327: Using an insecure SSL/TLS version may leave the connection vulnerable to attacks.
+CWE-327-codeql_4.py
+   CWE-326: Using broken or weak cryptographic hashing algorithms can compromise security.
+CWE-502-codeql_1.py
+   CWE-502: Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.
+CWE-502-sonar_1.py
+   CWE-79: Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-601-codeql_1.py
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-601-sonar_2.py
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-611-author_1.py
+   CWE-20: Using lxml.etree.fromstring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.fromstring with its defusedxml equivalent function.
+CWE-611-codeql_1.py
+   CWE-20: Using lxml.etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree with the equivalent defusedxml package.
+CWE-611-sonar_4.py
+    no vulnerability found
+CWE-643-sonar_1.py
+    no vulnerability found
+CWE-730-codeql_1.py
+    no vulnerability found
+CWE-730-codeql_2.py
+    no vulnerability found
+CWE-732-author_1.py
+    no vulnerability found
+CWE-798-author_1.py
+   CWE-259: Possible hardcoded password: 'yourpassword'
+   CWE-798: Credentials are hard coded in the source code of the application.
+CWE-798-codeql_1.py
+   CWE-259: Possible hardcoded password: 'password123'
+   CWE-798: Credentials are hard coded in the source code of the application.
+CWE-918-codeql_1.py
+   CWE-79: Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+   CWE-918: Making a network request to a URL that is fully user-controlled allows for request forgery attacks.
+CWE-918-codeql_2.py
+   CWE-79: Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+   CWE-918: Making a network request to a URL that is partially user-controlled allows for request forgery attacks.
+total: 24 vulnerable files, 37 vulnerabilities found

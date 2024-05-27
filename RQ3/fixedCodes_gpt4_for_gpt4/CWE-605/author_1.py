@@ -1,0 +1,1 @@
+# The code provided isn't vulnerable to CWE-605 (Multiple Binds to the Same Port). The program initiates a single bind to a port. The listening loop within the program only accepts incoming connections, rather than binding to multiple ports repeatedly. It is in compliance with good practices, therefore there is no need to make changes to the code to address CWE-605 vulnerability.

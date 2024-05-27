@@ -1,0 +1,87 @@
+CWE-020-author_1.py
+    no vulnerability found
+CWE-020-author_2.py
+    no vulnerability found
+CWE-020-codeql_1.py
+    no vulnerability found
+CWE-020-codeql_2.py
+   CWE-94: A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code.
+   CWE-79: Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+   CWE-215: Running a Flask app in debug mode may allow an attacker to run arbitrary code through the Werkzeug debugger.
+CWE-020-codeql_4.py
+   CWE-20: Security checks on the substrings of an unparsed URL are often vulnerable to bypassing.
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-022-author_1.py
+   CWE-643: Accessing paths influenced by users can allow an attacker to access unexpected resources.
+CWE-022-codeql_1.py
+   CWE-643: Accessing paths influenced by users can allow an attacker to access unexpected resources.
+CWE-022-codeql_2.py
+    no vulnerability found
+CWE-078-author_1.py
+   CWE-78: subprocess call - check for execution of untrusted input.
+CWE-079-codeql_2.py
+    no vulnerability found
+CWE-079-sonar_1.py
+    no vulnerability found
+CWE-090-codeql_2.py
+    no vulnerability found
+CWE-094-author_1.py
+   CWE-78: Use of possibly insecure function - consider using safer ast.literal_eval.
+   CWE-94: Interpreting unsanitized user input as code allows a malicious user to perform arbitrary code execution.
+CWE-094-codeql_1.py
+    no vulnerability found
+CWE-094-sonar_1.py
+    no vulnerability found
+CWE-116-author_1.py
+    no vulnerability found
+CWE-116-codeql_1.py
+    no vulnerability found
+CWE-117-codeql_1.py
+   CWE-117: Building log entries from user-controlled data is vulnerable to insertion of forged log entries by a malicious user.
+CWE-209-codeql_1.py
+   CWE-605: Possible binding to all interfaces.
+CWE-295-codeql_1.py
+    no vulnerability found
+CWE-326-author_1.py
+    no vulnerability found
+CWE-326-author_2.py
+    no vulnerability found
+CWE-377-codeql_1.py
+    no vulnerability found
+CWE-502-codeql_1.py
+    no vulnerability found
+CWE-502-sonar_1.py
+   CWE-79: Writing user input directly to a web page allows for a cross-site scripting vulnerability.
+CWE-601-codeql_1.py
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-601-sonar_2.py
+   CWE-601: URL redirection based on unvalidated user input may cause redirection to malicious web sites.
+CWE-601-sonar_3.py
+    no vulnerability found
+CWE-611-author_1.py
+   CWE-20: Using lxml.etree.fromstring to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.fromstring with its defusedxml equivalent function.
+CWE-611-codeql_1.py
+   CWE-20: Using lxml.etree.parse to parse untrusted XML data is known to be vulnerable to XML attacks. Replace lxml.etree.parse with its defusedxml equivalent function.
+   CWE-643: Accessing paths influenced by users can allow an attacker to access unexpected resources.
+CWE-611-sonar_1.py
+    no vulnerability found
+CWE-611-sonar_3.py
+   CWE-20: Using etree to parse untrusted XML data is known to be vulnerable to XML attacks. Replace etree with the equivalent defusedxml package.
+CWE-611-sonar_4.py
+   CWE-20: Using xml.sax to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.sax with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.
+CWE-730-codeql_1.py
+    no vulnerability found
+CWE-730-codeql_2.py
+    no vulnerability found
+CWE-732-author_1.py
+    no vulnerability found
+CWE-776-codeql_1.py
+   CWE-20: Parsing user input as an XML document with arbitrary internal entity expansion is vulnerable to denial-of-service attacks.
+   CWE-643: Accessing paths influenced by users can allow an attacker to access unexpected resources.
+CWE-798-codeql_1.py
+    no vulnerability found
+CWE-918-codeql_1.py
+   CWE-400: Requests call without timeout
+CWE-918-codeql_2.py
+   CWE-22: Leaking information about an exception, such as messages and stack traces, to an external user can expose implementation details that are useful to an attacker for developing a subsequent exploit.
+total: 18 vulnerable files, 24 vulnerabilities found

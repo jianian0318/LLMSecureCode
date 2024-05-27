@@ -1,0 +1,7 @@
+from django.http import HttpResponseRedirect
+
+def http_response_redirect(request):
+    '''
+    Get the target url from the request and redirect to it.
+    '''
+    return HttpResponseRedirect(request.GET.get('url'))
